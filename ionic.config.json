@@ -1,0 +1,7 @@
+{
+  "name": "PersoV2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
