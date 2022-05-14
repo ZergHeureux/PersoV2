@@ -1,6 +1,5 @@
-#container {
+.container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -8,12 +7,12 @@
   transform: translateY(-50%);
 }
 
-#container strong {
+.container strong {
   font-size: 20px;
   line-height: 26px;
 }
 
-#container p {
+.container p {
   font-size: 16px;
   line-height: 22px;
 
@@ -21,7 +20,47 @@
 
   margin: 0;
 }
-
-#container a {
+.container h1{
+  font-size:40px  ;
+}
+.container a {
   text-decoration: none;
+}
+.cat{
+  height:100vh;
+}
+
+#disque{
+  margin-top: 8%;
+  width:18%;
+  transform: rotate(0deg);
+  transition: 0.05s;
+}
+
+#nav{
+  z-index: 5;
+  position:sticky;
+  bottom: 0px;
+  width:fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+#home{
+  display: block;
+}
+#about{
+  display: none;
+}
+#project{
+  display: none;
+}
+#contact{
+  display: none;
+}
+#navPrev{
+  display: none;
+}
+#navNext{
+  display: block;
 }
